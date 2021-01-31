@@ -27,6 +27,9 @@ echo "Done installing wpscan"
 sudo apt install -y cadaver
 echo "Done installing cadaver for WebDAV"
 
+sudo apt install -y gobuster
+echo "Done installing Gobuster" 
+
 mkdir /home/kali/scriptsForOSCP
 echo "Making directory scriptsForOSCP" 
 
@@ -35,10 +38,12 @@ cd /home/kali/scriptsForOSCP
 wget https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/master/lse.sh -O /home/kali/scriptsForOSCP/lse.sh
 echo "Done downloading lse.sh" 
 
-wget https://bootstrap.pypa.io/get-pip.py -O /home/kali/scriptsForOSCP/python2-pip-installation-script.py
+wget https://bootstrap.pypa.io/2.7/get-pip.py -O /home/kali/scriptsForOSCP/python2-pip-installation-script.py
 echo "Done downloading python2-pip installation script"
 
-sudo python /home/kali/scriptsForOSCP/python2-pip-installation-script.py
+python /home/kali/scriptsForOSCP/python2-pip-installation-script.py
 echo "Done installng python2-pip"
+
+sudo rm -rf /home/kali/scriptsForOSCP/
 
 echo "Done setting up the environment"
