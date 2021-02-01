@@ -21,6 +21,9 @@ echo "Done setting up tmux configuration"
 sudo apt install -y exiftool
 echo "Done installing exiftool"
 
+sudo apt intall -y masscan
+echo "Done installing masscan" 
+
 sudo apt install -y wpscan
 echo "Done installing wpscan"
 
