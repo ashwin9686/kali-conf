@@ -30,6 +30,9 @@ echo "Done installing wpscan"
 sudo apt install -y html2text
 echo "Done installing html2text" 
 
+sudo apt install -y remmina
+echo "Done installing remmina"
+
 sudo apt install -y cadaver
 echo "Done installing cadaver for WebDAV"
 
