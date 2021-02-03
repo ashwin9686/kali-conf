@@ -39,6 +39,9 @@ echo "Done installing cadaver for WebDAV"
 sudo apt install -y gobuster
 echo "Done installing Gobuster" 
 
+sudo gzip -d /usr/share/wordlists/rockyou.txt.gz 
+echo "Done unzipping rockyou list"
+
 mkdir /home/kali/scriptsForOSCP
 echo "Making directory scriptsForOSCP" 
 
