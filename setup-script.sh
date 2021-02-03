@@ -27,6 +27,9 @@ echo "Done installing masscan"
 sudo apt install -y wpscan
 echo "Done installing wpscan"
 
+sudo apt install -y telnet
+echo "Done installing telnet"
+
 sudo apt install -y html2text
 echo "Done installing html2text" 
 
