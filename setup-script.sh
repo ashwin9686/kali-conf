@@ -61,4 +61,8 @@ echo "Done installng python2-pip"
 
 sudo rm -rf /home/kali/scriptsForOSCP/
 
+pip install --upgrade setuptools
+pip install impacket
+echo "Done installing impacket"
+
 echo "Done setting up the environment"
