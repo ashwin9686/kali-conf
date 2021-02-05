@@ -50,7 +50,7 @@ echo "Making directory scriptsForOSCP"
 
 cd /home/kali/scriptsForOSCP
 
-wget https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/master/lse.sh -O /home/kali/scriptsForOSCP/lse.sh
+wget https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/master/lse.sh -O /home/kali/Downloads/lse.sh
 echo "Done downloading lse.sh" 
 
 wget https://bootstrap.pypa.io/2.7/get-pip.py -O /home/kali/scriptsForOSCP/python2-pip-installation-script.py
