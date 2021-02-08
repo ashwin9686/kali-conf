@@ -33,6 +33,9 @@ echo "Done installing telnet"
 sudo apt install -y html2text
 echo "Done installing html2text" 
 
+sudo apt install -y pure-ftpd
+echo "Done installing pureFTP"
+
 sudo apt install -y remmina
 echo "Done installing remmina"
 
