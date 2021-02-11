@@ -45,6 +45,12 @@ echo "Done installing cadaver for WebDAV"
 sudo apt install -y gobuster
 echo "Done installing Gobuster" 
 
+sudo apt install -y atftp
+sudo mkdir /tftp
+sudo chown nobody: /tftp
+sudo atftpd --daemon --port 69 /tftp
+echo "Done setting up tftp"
+
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz 
 echo "Done unzipping rockyou list"
 
