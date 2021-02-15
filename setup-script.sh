@@ -24,6 +24,9 @@ echo "Done installing exiftool"
 sudo apt intall -y masscan
 echo "Done installing masscan" 
 
+sudo apt install -y gcc-multilib
+echo "Done installing gcc-multilib"
+
 sudo apt install -y wpscan
 echo "Done installing wpscan"
 
