@@ -34,7 +34,10 @@ sudo apt install -y telnet
 echo "Done installing telnet"
 
 sudo apt install -y html2text
-echo "Done installing html2text" 
+echo "Done installing html2text"
+
+sudo apt install -y crowbar
+echo "Done installing crowbar"
 
 sudo apt install -y pure-ftpd
 echo "Done installing pureFTP"
