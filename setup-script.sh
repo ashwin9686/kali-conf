@@ -12,6 +12,9 @@ echo "Done installing tmux"
 sudo apt install -y tilix
 echo "Done installing tilix"
 
+sudo apt install -y davtest
+echo "Done installing davtest"
+
 cd /home/kali/
 echo "Changing directory to home"
 
