@@ -24,7 +24,7 @@ echo "Done setting up tmux configuration"
 sudo apt install -y exiftool
 echo "Done installing exiftool"
 
-sudo apt intall -y masscan
+sudo apt install -y masscan
 echo "Done installing masscan" 
 
 sudo apt install -y gcc-multilib
