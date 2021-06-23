@@ -6,6 +6,9 @@ echo "Done updating the apt cache"
 sudo apt -y upgrade 
 echo "Done upgrade all packages"
 
+sudo timedatectl set-timezone Asia/Kolkata
+echo "Changing the default timezone to Kolkata"
+
 sudo apt install -y seclists tmux tilix davtest exiftool masscan gcc-multilib wpscan telnet html2text crowbar burpsuite pure-ftpd remmina cadaver gobuster
 echo "Done installing extra packages"
 
