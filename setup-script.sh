@@ -35,11 +35,15 @@ cd /home/kali/scriptsForOSCP
 wget https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/master/lse.sh -O /home/kali/scriptsForOSCP/lse.sh
 echo "Done downloading lse.sh" 
 
-wget https://bootstrap.pypa.io/2.7/get-pip.py -O /home/kali/scriptsForOSCP/get-pip.py
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py -O /home/kali/scriptsForOSCP/get-pip.py
 echo "Done downloading python2-pip installation script"
 
 python /home/kali/scriptsForOSCP/get-pip.py
 echo "Done installng python2-pip"
+
+echo 'export PATH=$PATH:/home/kali/.local/bin' >> /home/kali/.zshrc
+echo "Added python2-pip to the PATH variable" 
+source /home/kali/.zshrc
 
 pip install --upgrade setuptools
 pip install impacket
